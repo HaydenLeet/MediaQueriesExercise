@@ -1,0 +1,60 @@
+h1 {
+    color: gray;
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  body {
+    height: 100vh;
+  }
+
+  /* START BELOW THIS LINE */
+  
+  /* 1 */
+@media (max-width: 800px) {
+    body {
+        background-color: #000080;
+    }   
+}
+
+/* 2 */
+@media (max-width: 600px) {
+    body {
+        background-color: #ffa500;
+    }   
+}
+
+/* 3 */
+@media (min-width: 600px) and (max-height: 400px){
+    #one {
+        border: dashed gray 10px;
+    }   
+    #three {
+        border: dotted gray 10px;
+    }
+}
+
+/* 4 */
+@media (min-width: 900px) or (min-height: 500px){
+    #two {
+        border-top: solid gray 10px;
+    }   
+}
+
+/* 5 */
+/* @media (orientation: landscape) {
+    h1 {
+        flex-direction: row;
+    }
+} */
+
+/* 6 */
+/* @media (orientation: portrait) {
+    h1 {
+        flex-direction: column;
+        text-align: center;
+    }
+} */
+
+/* BONUS */
+/* 1 */
